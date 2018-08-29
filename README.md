@@ -5,7 +5,6 @@ Tento kurz je určen pro mírně pokročilé účastnice a jeho výstupem bude s
 ### Část desktopová
 * Proměnné
 * Podmínky
-* Switch
 * Pole,ArrayList
 * Cykly
 * Funkce
@@ -13,9 +12,9 @@ Tento kurz je určen pro mírně pokročilé účastnice a jeho výstupem bude s
 * Práce s řetězci
 * Soubory
 * Dědičnost
-* Interface,Abstraktní třída
+* Interface
 #### Možné bonusy
-* GUI JavaFX
+* Selenium
 ### Část webová
 * Dynamic web project
 * Tomcat server
