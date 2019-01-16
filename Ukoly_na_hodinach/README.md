@@ -1,7 +1,7 @@
 Opakování
 =========
 
-Tato složka slouží jako sbírka úloh z DA:Java, probíraných na hodině. Příklady jsou ilustrativní a je možno si je pozměnit.
+Tato složka slouží jako sbírka úloh z DA:Java, probíraných na hodině. Příklady jsou ilustrativní a je možno si je pozměnit. Tyto příklady slouží pro Desktopovou část, ve Webové části jsme na hodinách pokračovali v projektech/domácích úkolech - shop list, správa uživatelů.
 
 První opakování
 ---------------
