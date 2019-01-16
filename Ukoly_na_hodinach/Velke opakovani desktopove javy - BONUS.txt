@@ -1,0 +1,6 @@
+Vytvoø ve tøídì Clovek statickou metodu vypisDoSouboru která bude pøijímat parametry String cestaKSouboru a ArrayList<Clovek>. V této metodì vypíšete do souboru ve struktuøe: 1 øádek = 1 èlovìk (hodnoty oddìleny støedníkem) pøíklad: "Stepan;Klemens"
+Vytvoø ve tøídì Clovek statickou metodu nactiZeSouboru která bude pøijímat parametr String cestaKSouboru, bude naèítat lidi ze souboru a vracet ArrayList<Clovek>.
+Vytvoø ve tøídì Firma metody nactiData, která bude private, bude pøijímat dva parametry - String cestaKZamestnancum a String cestaKZakaznikum a naète zamìstnance a zákazníky ze zadaných soborù. Vytvoøte druhý konstruktor tøídy Firma, který nebude pøijímat seznamy zamìstnancù a zákazníkù, ale naète je pomocí této funkce.
+Vytvoø Enumeraci Kategorie s hodnotami: Potraviny,Obleceni,Elektronika
+Pøidej do tøídy produkt parametr typu Kategorie, který budete plnit v konstruktoru pomocí parametru
+Uprav metodu spocitejNakup ve tøídì produkt a metodu vypocitejObrat ve tøídì Firma tak, aby braly parametr typu Kategorie a sèítaly pouze zboží jedné kategorie. Zároveò pokud bude parametr kategorie null, v tom pøípadì seètou všechny kategorie.

@@ -1,0 +1,47 @@
+Poznamky:
+
+Zopakovat co je to funkce, co je to parametr
+
+"Obsah čtverce o straně 25.53 je 651,78"
+
+funkce nemazat!!!
+
+Ukoly:
+
+1)
+Vytvoř funkci, která vypíše na obrazovku Pozdrav obsahující Vaše jméno a věk příklad: "Ahoj, jmenuji se Štěpán Klemens a je mi 23 let."
+Přetvoř funkci tak, aby brala jméno a věk z parametrů String a int
+Přetvoř funkci tak, aby nevypisovala na obrazovku jméno a věk, ale vracela celý pozdrav a vypište výsledek této funkce v mainu - parametry vaše jméno a věk
+
+2)
+Vytvoř funkci, která vypíše na obrazovku dnešní datum Přklad: "Dnes je 2018-10-04"
+Přetvoř funkci tak, aby brala dnešní datum z parametr LocalDate
+Přetvoř funkci tak, aby datum bylo ve formátu "4.10.2018"
+Přetvoř funkci tak, aby nevypisovala ale jen vracela řetězec a vypiš její výsledek v mainu - parametr dnešní datum
+
+3)
+Vytvoř funkci, která vypíše na obrazovku Obsah čtverce o straně 25.53 - bez parametru. Příklad: "Obsah čtverce o straně 4 je 16" - použít proměnnou delkaStrany a výpočet!
+Přetvoř funkci tak, aby brala délku strany z parametru
+Přetvoř funkci tak, aby nevypisovala ale jen vracela řetězec a vypiš její výsledek v mainu - parametr 5
+
+4) 
+Vytvoř funkci, která bude brát jako parametr věk (int) a vypíše na obrazovku jestli jste Dítě,Teenager,Dospělý nebo důchodce
+Přetvoř funkci tak, aby nevypisovala ale jen vracela řetězec a vypiš její výsledek v mainu - parametr tvůj věk
+
+5) 
+Vytvořte funkci, která bude brát dva parametry - String jmeno a Int vek. tato funkce vypíše pomocí funkce pozdrav(1) vaše jméno a věk příklad: "Ahoj, jmenuji se Štěpán Klemens a je mi 23 let."
+Upravte funkci, aby k výpisu pozdravu pomocí vytvořené funkce(1) přidala výpis z funkce dospelost(4) se stejnym parametrem věk. Příklad: "Ahoj, jmenuji se Štěpán Klemens a je mi 23 let. Jsem dospělý."
+
+6)
+Vytvoř funkce, která bude brát jako parametr počet králíků a vypíše na obrazovku králíky s pořadím: 
+1. králík 
+2. králík
+3. králík
+Přetvoř funkci tak, aby králíky nevypisovala, ale přidávala je do ArrayListu (nová proměnná arraylist a v cyklu přes metodu .add()) a potom list vrátila
+
+7)
+Vytvořte funkci která bude přijímat jako parametr ArrayList kralici, kraliky projde cyklem foreach ve kterém je vypíše
+
+8) 
+Vytvořte v mainu ArrayList - kralici který neinicializujete pomocí new ArrayList<String>() ale pomocí vytvořené funkce na generování králíků
+Vypište králíky pomocí funkce pro výpis králíků s parametrem kralici, který jste právě vytvořili

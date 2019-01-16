@@ -1,0 +1,36 @@
+Vytvoø Enumeraci pohlavi se dvìmi hodnotami - MUZ,ZENA
+
+Pøidej do tøídy èlovìk tøídní promìnnou typu pohlavi.
+
+Pøidej do konstruktoru tøídy èlovìk parametr typu pohlavi a napln pomocí nìho tøídní promìnnou pohlaví.
+
+
+public class HelloWorld
+{
+  public static void main(String[] args)
+  {
+    Pohlavi p = Pohlavi.MUZ;
+    
+    Clovek ja = new Clovek("Stapan","Klemens",23);
+    System.out.println(ja.jmeno);
+    System.out.println(ja.prijmeni);
+    System.out.println(ja.vek);
+  }
+}
+
+public enum Pohlavi {
+  MUZ,ZENA;
+}
+
+
+public class Clovek{
+  int vek;
+  String jmeno;
+  String prijmeni;
+  
+  public Clovek(String jmeno,String prijmeni,int vek){
+    this.vek = vek;
+    this.jmeno = jmeno;
+    this.prijmeni = prijmeni;
+  }
+}

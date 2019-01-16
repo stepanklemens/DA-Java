@@ -1,0 +1,23 @@
+Poznamky:
+
+2x int 1x string => int + int + string => nactete dve cisla a vypiste soucet+" hodin"
+
+2x int 1x string => string + int + int => "Vite kolik je hodin? "+soucet
+
+konkretni ukoly:
+
+nactete dve cisla a vypiste soucet+" hodin"
+
+
+"Vite kolik je hodin? "+a+b
+
+nacist dve promenne double a,b 
+nacist  string operaci (pomoc k DU) a porovnat s "+","-" a vypsat vysledek
+
+nacitat cisla v cyklu a scitat je a vypisovat soucet, dokud uzivatel nezada zaporne cislo, potom skoncit
+
+nacist  string operaci (pomoc k DU) a porovnat 
+
+nacitat cisla v cyklu a scitat je a vypisovat soucet, dokud uzivatel nezada zaporne cislo, potom zkoncit - pomoci while (true) + break
+
+udelat random list cisel a pomoci continue vypsat jen ta delitelna dvema + pokud je delitelne tak vypsat vysledek + zbytek => na tom ukazat, ze hned na zacatku preskocime nevhodna cisla pomoci coninue a neztracime tak zdrojovy cas operacema

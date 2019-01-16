@@ -1,0 +1,17 @@
+Poslední opakování Dekstopové javy:
+-----------------------------------
+Vytvořte nový projekt Eshop a v něm třídu Eshop s metodou main
+Vytvoř třídu Clovek s parametry String jmeno,String prijmeni a String email. 
+Vytvoř třídu Produkt s parametry String nazev a int cena
+Vytvoř třídu Zamestnanec která dědí ze třídy Clovek a má navíc parametry private static int pocitadlo(bez gettru a settru) a private int osobniCislo s getterem(vygenerujte ho). Osobní číslo budete plnit v konstruktoru pomocí následující logiky: inkrementujete počítadlo a do osobního čísla přiřadíte aktualní hodnotu počítadla.
+Vytvoř třídu Zakanik která dědí ze třídy Clovek a má navíc parametr List<Produkt> nakupniKosik
+Vytvoř třídu Firma s parametry String nazev, ArrayList<Zamestnanec> zamestnanci,ArrayList<Zakaznik> zakaznici
+Vytvoř ve třídě Clovek metodu posliMail() která na vypíše do konzole (sysout) "Posílám email na adresu "+ email člověka
+Vytvoř ve třídě Clovek statickou metodu posliHromadnyEmail(ArrayList<Clovek> seznam) která bude přijímat jako parametr ArrayList<Clovek> a bude odesílat email hromadně na lidi z seznamu
+Vytvoř ve třídě Firma metodu posliOznameni, která zavolá statickou metodu posliHromadnyEmail ze třídy Clovek a jako paramtr bude jeden list spojený z proměnných zamestnanci a zakaznici
+Vytvoř ve třídě Zakaznik metodu spocitejNakup() která bude vracet celkovou cenu produktů z nákupního košíku.
+Vetvoř ve třídě Firma metodu vypocitejObrat() která bude vracet celkovou cenu nákupů pro seznam zákazníků.
+Přepiš metodu toString() ve třídě Clovek tak, aby vracela pouze jméno a přijmení
+Přepiš metodu toString() ve třídě Zamestanec tak, aby vracela puvodni hodnotu (pomoci super) + osobní číslo
+Vytvoř ve třídě Firma metodu vypisSeznamZamestnancu() která bude vypisovat seznam všech zaměstnanců.
+Vytvoř ve třídě Firma metodu vypisSeznamZakazniku() která bude vypisovat seznam všech zaměstnanců.
